@@ -398,3 +398,36 @@ body {
   color: black;
   transform: translateY(-2px) scale(1.05);
 }
+/* MOBILE BIG BUTTON */
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 99999;
+
+  width: 65px;
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0,0,0,0.8);
+  color: white;
+
+  font-size: 32px;
+  font-weight: bold;
+
+  border-radius: 50%;
+
+  text-decoration: none;
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+  backdrop-filter: blur(10px);
+}
+
+/* TAP EFFECT */
+.back-btn:active {
+  transform: scale(0.92);
+}
