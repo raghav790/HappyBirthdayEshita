@@ -365,31 +365,31 @@ body {
   background: rgba(0,0,0,0.55);
   z-index: -1;
 }
-/* BACK BUTTON */
+/* BIG BACK BUTTON */
 .back-btn {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 25px;
+  left: 25px;
   z-index: 1000;
 
-  background: rgba(0,0,0,0.7);
-  color: white;
+  background: #ffffff;
+  color: #111;
 
-  padding: 12px 22px;
-  border-radius: 30px;
+  padding: 16px 30px;
+  border-radius: 50px;
 
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
 
-  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255,255,255,0.5);
 
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
-/* HOVER */
+/* HOVER EFFECT */
 .back-btn:hover {
-  background: white;
-  color: black;
-  transform: scale(1.08);
+  transform: scale(1.12);
+  background: #ffd369;
+  box-shadow: 0 0 25px #ffd369;
 }
